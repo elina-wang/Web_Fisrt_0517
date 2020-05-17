@@ -1,4 +1,26 @@
-*{
-    color:olivedrab;
+/* 字形設定要放在最前頭 */
+/* src代表來源 url代表路徑 */
+@font-face{
+    font-family: Ngaan;
+    src: url(./font/I.Ngaan.ttf);
+}
 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 微軟正黑體;
+    box-sizing: border-box;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    padding: 30px;
+    
+}
+
+#logo span{
+    font-family: Ngaan;
+    font-size: 36px;
+    font-weight: 900;
 }
