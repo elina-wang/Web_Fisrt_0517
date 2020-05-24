@@ -12,10 +12,18 @@
     box-sizing: border-box;
 }
 
+/* 導覽列 */
 nav{
     display: grid;
     grid-template-columns: 30% 70%;
     padding: 25px;
+    position: fixed;
+    top:0px;
+    width: 100%;
+    background-color:rgba(255,255,255,0.5);
+    color:black;
+
+
  
     
 }
@@ -42,13 +50,17 @@ nav{
 }
 
 #nav a:hover{
-    color: olivedrab;
+    color:green;
     font-size: 20px;
 }
 
 #banner{
     background-image: url(./img/noodles.jpg);
-    height: 750px;
+    background-size: cover;
+    background-position: center;
+    /* 100vh 跟螢幕一樣高 100% v 螢幕 h 高度 */
+    height: 100vh;
+
 
 }
 
