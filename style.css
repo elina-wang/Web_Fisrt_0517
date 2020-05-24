@@ -162,6 +162,14 @@ section hr {
     padding:10px auto;
 }
 
+#news div a{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+
+}
+
 #news div a:hover{
     color:olivedrab;
     text-decoration: none;
