@@ -34,6 +34,7 @@ nav{
     font-weight: 900;
     padding:10px 50px;
     margin-left: 250px;
+    color:white;
 }
 
 #nav{
@@ -124,4 +125,52 @@ section h1{
 
 section hr {
     margin-bottom: 40px;
+}
+
+#news ul{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    list-style: none;
+    
+}
+
+#news ul div{
+    color: grey;
+    padding: 10px 0px;
+    letter-spacing: 5px;
+    line-height: 2;
+}
+
+#news ul li{
+    padding: 10px ;
+    letter-spacing: 5px;
+    line-height: 2;
+}
+
+#news ul li:hover{
+    color:green;
+    
+}
+
+#news div a{
+    text-decoration: none;
+    color: black;
+    transition: 0.3s;
+    text-align:right;
+    line-height: 2;
+    letter-spacing: 5px;
+    padding:10px auto;
+}
+
+#news div a:hover{
+    color:green;
+    
+}
+
+#contact div p{
+    width: 80%;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 5px;
+    margin: 0 auto;
 }
